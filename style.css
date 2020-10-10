@@ -1,0 +1,184 @@
+
+/* Helpers and Elements
+====================================*/
+
+.text-light {
+  color: #fff;
+}
+
+.text-light.title-lg,
+.text-light.title-md {
+  color: #fff;
+}
+
+.text-brand {
+  color: #4ac3bf;
+}
+
+/* Content
+====================================*/
+
+body {
+  background-color: #2d2d2d;
+  font-family: 'Lato';
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 2em;
+  color: #777777;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffffff;
+}
+
+
+.content {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  position: relative;
+  overflow: hidden;
+}
+
+.content.no-padding {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.title-lg,
+.title-md {
+  font-family: 'Oswald';
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 1.3em;
+  letter-spacing: 1px;
+  color: #4ac3bf;
+  margin-bottom: 20px;
+}
+
+.title-md {
+  font-size: 26px;
+}
+
+.title-lgx {
+  font-family: 'Oswald';
+  font-size: 70px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.title-light {
+  font-family: 'Oswald';
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+
+ul.socials {
+  list-style-type: none;
+  display: block;
+  padding-left: 0px;
+  text-align: left;
+}
+
+ul.socials li {
+  display: inline-block;
+  margin-bottom: 8px;
+  margin-right: 3px;
+}
+
+ul.socials li a {
+  font-size: 14px;
+  width: 43px;
+  height: 43px;
+  line-height: 43px;
+  background-color: #333333;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 5px;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+ul.socials li a:hover {
+  background-color: #4ac3bf;
+}
+
+/* Responsive
+====================================*/
+/* Large Devices - Desktops */
+/* Medium Devices - Desktops */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* Info Boxes */
+
+  .info-boxes .ib-item .img-block {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* Icon Boxes */
+
+  .icon-boxes .box-item .entry-hover p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+/* Small Devices - Tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+  .title-lgx {
+    font-size: 50px;
+  }
+
+  .title-light {
+    font-size: 24px;
+  }
+
+  .title-lg {
+    font-size: 24px;
+  }
+}
+/* Extra Small Devices - Phones */
+@media screen and (max-width: 767px) {
+
+  .title-lgx {
+    font-size: 50px;
+  }
+
+  .title-light {
+    font-size: 24px;
+  }
+
+  .title-lg {
+    font-size: 24px;
+  }
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
